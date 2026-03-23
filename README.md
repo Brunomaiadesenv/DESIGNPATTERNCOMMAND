@@ -47,3 +47,34 @@ O padrão Command foi escolhido pelos seguintes motivos:
 ```xml
 <Button Command="{Binding AdicionarCommand}" />
 <Button Command="{Binding RemoverCommand}" />
+
+
+---
+
+## 7. Vantagens
+- Baixo acoplamento
+- Reutilização de código
+- Facilidade de manutenção
+- Separação de responsabilidades
+- Melhor testabilidade
+
+---
+
+## 8. Desvantagens
+- Aumento no número de classes
+- Maior complexidade inicial
+- Pode ser excessivo para projetos pequenos
+
+---
+
+## 9. Exemplos reais de uso
+Botões de sistemas (Salvar, Excluir, Atualizar)
+Sistemas bancários
+Sistemas ERP
+Aplicações WPF, Xamarin e MAUI
+
+---
+
+## 10. Análise crítica
+O padrão Command é extremamente útil em aplicações com interface gráfica, pois promove organização, desacoplamento e reutilização de código.
+No entanto, seu uso em aplicações muito simples pode introduzir uma complexidade desnecessária, sendo importante avaliar o contexto antes de sua aplicação.

@@ -39,15 +39,14 @@ O padrão Command foi escolhido pelos seguintes motivos:
 
 ## 5. Aplicação no projeto
 
-### ✔ Comandos implementados
+### Comandos implementados
 - `AdicionarCommand`
 - `RemoverCommand`
 
-### ✔ Execução na View (XAML)
+### Execução na View (XAML)
 ```xml
 <Button Command="{Binding AdicionarCommand}" />
 <Button Command="{Binding RemoverCommand}" />
-
 
 ---
 

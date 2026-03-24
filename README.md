@@ -1,4 +1,4 @@
-# DESIGNPATTERNCOMMAND
+# DESIGN PATTERN COMMAND
 DESIGN PATTERN COMMAND: O padrão Command é um padrão comportamental do GoF que encapsula uma solicitação como um objeto, permitindo parametrizar clientes com diferentes requisições, enfileirar operações e suportar operações de desfazer (undo).
 
 ## 2. Problema que o padrão resolve
